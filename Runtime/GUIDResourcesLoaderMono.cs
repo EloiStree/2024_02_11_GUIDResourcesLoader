@@ -19,8 +19,14 @@ public class GUIDResourcesLoaderMono : MonoBehaviour
         }
     }
 
-    public void LoadGUID(string guid) {
-        m_folderGUID = guid;
+    [ContextMenu("Load GUID")]
+    public void LoadGUIDFromInspector()
+    {
+        LoadGUID(m_folderGUID);
+    }
+        public void LoadGUID(string guid)
+        {
+            m_folderGUID = guid;
         GameObject prefab = Resources.Load($"{m_folderGUID}/{m_defaultNameToGive}") as GameObject;
         if (prefab != null)
         {
