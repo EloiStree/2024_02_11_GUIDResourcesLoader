@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4989200487738929069}
   - component: {fileID: 5042615295157342534}
   m_Layer: 0
-  m_Name: GUID To Loead Arena
+  m_Name: GUID To Load Arena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

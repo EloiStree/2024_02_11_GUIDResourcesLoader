@@ -1,12 +1,10 @@
 
 {                                                                   
-            "name": "be.eloistree.guidresourcesloaderEditor",          
-    "references": ["be.eloistree.guidresourcesloader"
+            "name": "be.elab.guidresourcesloader",          
+    "references": [
 ],                                                              
     "optionalUnityReferences": [],                                  
-    "includePlatforms": [                                           
-        "Editor"                                                    
-    ],                                                              
+    "includePlatforms": [],                                                  
     "excludePlatforms": [],                                         
     "allowUnsafeCode": false,                                       
     "overrideReferences": false,                                    
